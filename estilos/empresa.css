@@ -1,0 +1,249 @@
+body{
+	width: 100%;
+	margin-top: 30px;
+	margin: 0px;
+}
+#contenedor{
+	padding-top: 25px;
+	z-index: 0;
+}
+.inicio{
+	padding-left: 25px;
+}
+#fondo{
+	padding-top: 15px;
+	width: 100%;
+	height: 100px;
+	z-index: 0;
+}
+#sombra{
+	background-color:  rgba(234,234,234,1); 
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	top: 600px;
+	z-index: 0;
+}
+#menu{
+	text-decoration: none;
+	color: #000000;
+	padding-right: 35px;
+	padding-left: 40px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#menu:hover{
+	color: #DEDEDE;
+}
+#linkbotoncv{
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#linkbotoncv:hover{
+	color: #439D29;
+}
+#linkbotongreen{
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#linkbotongreen:hover{
+	color: #EC3F32;
+}
+#linkbotonefectos{
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#linkbotonefectos:hover{
+	color: #FABC02;
+}
+#linkbotonreporte{
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#linkbotonreporte:hover{
+	color: #155E9D;
+}
+#linkbotonmantenimiento{
+	text-decoration: none;
+	color: #FFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+#linkbotonmantenimiento:hover{
+	color: #9B4A87;
+}
+#flotantecv{
+	width: 50%;
+	z-index: 100;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	padding-left: 40px;
+	margin-top: -50px;
+}
+#flotante2{
+	border-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	padding: 25px;
+}
+#flotantegreen{
+	width: 50%;
+	z-index: 100;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	padding-left: 300px;
+	margin-top: -50px;
+}
+#flotantegreen2{
+	border-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	padding: 25px;
+}
+#flotanteefectos{
+	width: 50%;
+	z-index: 100;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	padding-left: 560px;
+	margin-top: -50px;
+}
+#flotanteefectos2{
+	border-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	padding: 25px;
+}
+#flotantereporte{
+	width: 50%;
+	z-index: 100;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	padding-left: 820px;
+	margin-top: -50px;
+}
+#flotantereporte2{
+	border-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	padding: 25px;
+}
+#flotantemantenimiento{
+	width: 50%;
+	z-index: 100;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	padding-left: 1080px;
+	margin-top: -50px;
+}
+#flotantemantenimiento2{
+	border-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	padding: 25px;
+}
+#botones{
+	padding-top: 25px;
+}
+#cv{
+	background: #99BC1A;
+	color: #fff;
+	padding: 8px;
+	border-radius: 6px;
+	border:0px;
+	z-index: 1000;
+}
+#green{
+	background: #FFA002;
+	color: #fff;
+	padding: 8px;
+	border-radius: 6px;
+	border:0px;
+	z-index: 1000;
+}
+#efectos{
+	background: #FFF100;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 6px;
+	border:0px;
+	z-index: 1000;
+}
+#reporte{
+	background: #0083D7;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 6px;
+	border:0px;
+	z-index: 1000;
+}
+#mantenimiento{
+	background: #DC0067;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 6px;
+	border:0px;
+	z-index: 1000;
+}
+#tablatexto{
+	/*background-color: rgba(255,255,255,.7);
+	width: 96%;
+	border-spacing: 2px;
+	border-color: #fff;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+	z-index: 1000;*/
+}
+#texto{
+	padding-top: 260px;
+	padding-left: 40px;
+	color: #fff;
+}
+#contenedortemas{
+	width: 100%;
+	z-index: 900;
+	background: transparent;
+	border-color: #000;
+	border-spacing: 3px;
+	position: absolute;
+	margin-top: 320px;
+}
+#contenedorfoto{
+	width: 100%;
+	z-index: 1000;
+	background: transparent;
+	position: absolute;
+	margin-top: 100px;
+}
+#tablafoto{
+	padding-left: 40px;
+}
+
+
